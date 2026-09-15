@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tasks - StudyMate</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>StudyMate</h1>
+        <h2>Tasks</h2>
+        <a href="index.html">Back to Dashboard</a>
+        <h3>Add New Task</h3>
+        <form id="taskForm">
+            <label>Task Name:</label>
+            <input type="text" id="taskName">
+            <label>Subject:</label>
+            <input type="text" id="taskSubject">
+            <label>Due Date:</label>
+            <input type="date" id="taskDate">
+            <label>Priority:</label>
+            <select id="taskPriority">
+                <option>High</option>
+                <option>Medium</option>
+                <option>Low</option>
+            </select>
+            <button type="submit" id="addTaskBtn">Add Task</button> 
+        </form>
+        <h3>My Tasks</h3>
+        <div id="taskList"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
